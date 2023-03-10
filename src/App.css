@@ -5,6 +5,7 @@
   margin: 0;
   font-family: 'Poppins', 'sans-serif';
   box-sizing: border-box;
+  background: lightcyan;
 }
 
 .container{
@@ -30,6 +31,22 @@ h1{
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid #999;
   font-weight: 600;
+  cursor: pointer;
+  margin-top: -1;
+  margin-left: -1;
+  line-height: 85px;
+}
+
+.board-row:after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.board-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer{
